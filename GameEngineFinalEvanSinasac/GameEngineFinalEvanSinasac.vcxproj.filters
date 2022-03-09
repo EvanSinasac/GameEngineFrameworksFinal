@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{01542257-a785-45cd-b7e6-88046121847a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{d0d4afbd-910c-49e1-b589-cd1f6c51515e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{df61194e-4f00-4edf-8e6e-abfb113e1319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{4e4cfb68-7113-471b-8e6d-bac2513769f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAOManager">
+      <UniqueIdentifier>{4a42c68a-5604-4054-9e9c-e3cc480393d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager">
+      <UniqueIdentifier>{b4d68e68-26a5-42d7-b775-3f592459eb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders">
+      <UniqueIdentifier>{35f5207d-681d-4586-a93c-e8ba7d5afaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Manager">
+      <UniqueIdentifier>{682f8428-ed14-494a-afe9-bc87ce1a6f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{6693170d-7b90-41f2-a863-267d24da3ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{05762bd7-9530-4bc9-84a1-8efddd73a376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Space Invader Text Files">
+      <UniqueIdentifier>{a6caefbe-4b49-4591-97d4-793d929d0249}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\C24BitBMPpixel.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\cBasicTextureManager.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\CTextureFromBMP.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iMessage.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="iShip.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="iMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediator_Imp.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="iPhysicalObject.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cShipyard.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader_I1.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader_I2.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader_I3.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader_UFO.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader_Shield.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader_Base.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntityOrganizer.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="helpfulGlobalFunctions.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader_Missile.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpaceInvader_Bomb.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLFWKeyboadModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\C24BitBMPpixel.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\cBasicTextureManager.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\CTextureFromBMP.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediator_Imp.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediator.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cShipyard.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader_I1.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader_I2.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader_I3.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader_UFO.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader_Shield.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader_Base.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cEntityOrganizer.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="helpfulGlobalFunctions.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader_Missile.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpaceInvader_Bomb.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\common\assets\lights.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\common\assets\worldFile.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_Base_block.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_Bomb_pose_1.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_Bomb_pose_2.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_Bomb_pose_3.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_Explosions.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_I1_block_pose_1.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_I1_block_pose_2.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_I2_block_pose_1.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_I2_block_pose_2.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_I3_block_pose_1.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_I3_block_pose_2.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_Numbers.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_Shield_block.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+    <Text Include="SpaceInvader_UFO_block.txt">
+      <Filter>Entities\Space Invader Text Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\assets\shaders\fragShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\geomShader.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\vertShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
